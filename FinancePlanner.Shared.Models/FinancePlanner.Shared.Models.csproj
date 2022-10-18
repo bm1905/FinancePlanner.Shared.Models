@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Description>Shared model for FinancePlanner</Description>
+    <PackageReleaseNotes>Shared model for FinancePlanner</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
