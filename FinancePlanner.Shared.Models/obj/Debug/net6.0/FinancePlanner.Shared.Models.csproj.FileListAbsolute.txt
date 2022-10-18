@@ -2,7 +2,6 @@ D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlan
 D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\bin\Debug\net6.0\FinancePlanner.Shared.Models.dll
 D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\bin\Debug\net6.0\ref\FinancePlanner.Shared.Models.dll
 D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\bin\Debug\net6.0\FinancePlanner.Shared.Models.pdb
-D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\obj\Debug\net6.0\FinancePlanner.Shared.Models.csproj.AssemblyReference.cache
 D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\obj\Debug\net6.0\FinancePlanner.Shared.Models.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\obj\Debug\net6.0\FinancePlanner.Shared.Models.AssemblyInfoInputs.cache
 D:\Projects\ASP NET CORE\FinancePlanner\FinancePlanner.Shared.Models\FinancePlanner.Shared.Models\obj\Debug\net6.0\FinancePlanner.Shared.Models.AssemblyInfo.cs
