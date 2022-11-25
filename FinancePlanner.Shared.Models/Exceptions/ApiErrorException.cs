@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Shared.Models.Exceptions
+namespace FinancePlanner.Shared.Models.Exceptions
 {
     [Serializable]
     public class ApiErrorException : ApplicationException
@@ -21,6 +21,6 @@ namespace Shared.Models.Exceptions
             StackTrace = stackTrace;
         }
 
-        public override string StackTrace { get; }
+        public override string? StackTrace { get; }
     }
 }

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
     <Description>Shared model for FinancePlanner</Description>
     <PackageReleaseNotes>Shared model for FinancePlanner</PackageReleaseNotes>
   </PropertyGroup>

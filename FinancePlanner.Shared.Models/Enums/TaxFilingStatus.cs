@@ -1,4 +1,4 @@
-﻿namespace Shared.Models.Enums
+﻿namespace FinancePlanner.Shared.Models.Enums
 {
     public enum TaxFilingStatus
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Shared.Models.Exceptions
+namespace FinancePlanner.Shared.Models.Exceptions
 {
     [Serializable]
     public class NotFoundException : ApplicationException
@@ -15,5 +15,12 @@ namespace Shared.Models.Exceptions
         public NotFoundException(string message) : base(message) { }
 
         public NotFoundException(string message, Exception innerException) : base(message, innerException) { }
+
+        public NotFoundException(string message, string stackTrace) : base(message)
+        {
+            StackTrace = stackTrace;
+        }
+
+        public override string? StackTrace { get; }
     }
 }

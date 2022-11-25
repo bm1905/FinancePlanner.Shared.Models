@@ -1,4 +1,4 @@
-﻿namespace Shared.Models.TaxServices
+﻿namespace FinancePlanner.Shared.Models.TaxServices
 {
     public class TotalTaxesWithheldResponse
     {

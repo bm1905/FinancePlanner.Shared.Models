@@ -1,4 +1,4 @@
-﻿namespace Shared.Models.WageServices
+﻿namespace FinancePlanner.Shared.Models.WageServices
 {
     public class PreTaxWagesResponse
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Shared.Models.Exceptions
+namespace FinancePlanner.Shared.Models.Exceptions
 {
     [Serializable]
     public class ValidationException : ApplicationException
@@ -15,5 +15,12 @@ namespace Shared.Models.Exceptions
         public ValidationException(string message) : base(message) { }
 
         public ValidationException(string message, Exception innerException) : base(message, innerException) { }
+
+        public ValidationException(string message, string stackTrace) : base(message)
+        {
+            StackTrace = stackTrace;
+        }
+
+        public override string? StackTrace { get; }
     }
 }
