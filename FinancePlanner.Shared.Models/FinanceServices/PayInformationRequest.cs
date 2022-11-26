@@ -14,6 +14,7 @@ public class PayInformationRequest
 public class PayInformationResponse
 {
     public int PayInformationId { get; set; }
+    public string UserId { get; set; } = string.Empty;
     public string EmployeeName { get; set; } = string.Empty;
     public BiWeeklyHoursAndRateDto BiWeeklyHoursAndRate { get; set; } = new();
     public PreTaxDeductionDto PreTaxDeduction { get; set; } = new();
