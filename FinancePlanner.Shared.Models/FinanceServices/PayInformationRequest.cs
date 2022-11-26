@@ -2,8 +2,18 @@
 
 namespace FinancePlanner.Shared.Models.FinanceServices;
 
-public class PayInformationDto
+public class PayInformationRequest
 {
+    public string EmployeeName { get; set; } = string.Empty;
+    public BiWeeklyHoursAndRateDto BiWeeklyHoursAndRate { get; set; } = new();
+    public PreTaxDeductionDto PreTaxDeduction { get; set; } = new();
+    public PostTaxDeductionDto PostTaxDeduction { get; set; } = new();
+    public TaxInformationDto TaxInformation { get; set; } = new();
+}
+
+public class PayInformationResponse
+{
+    public int PayInformationId { get; set; }
     public string EmployeeName { get; set; } = string.Empty;
     public BiWeeklyHoursAndRateDto BiWeeklyHoursAndRate { get; set; } = new();
     public PreTaxDeductionDto PreTaxDeduction { get; set; } = new();
