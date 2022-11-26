@@ -1,9 +1,8 @@
-﻿namespace FinancePlanner.Shared.Models.Enums
+﻿namespace FinancePlanner.Shared.Models.Enums;
+
+public enum TaxFilingStatus
 {
-    public enum TaxFilingStatus
-    {
-        MarriedFilingJointly = 1,
-        SingleOrMarriedFilingSingle = 2,
-        HeadOfHousehold = 3
-    }
+    MarriedFilingJointly = 1,
+    SingleOrMarriedFilingSingle = 2,
+    HeadOfHousehold = 3
 }
