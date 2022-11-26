@@ -1,18 +1,17 @@
 ﻿using FinancePlanner.Shared.Models.Enums;
-using System.Collections.Generic;
 
 namespace FinancePlanner.Shared.Models.FinanceServices;
 
 public class PayInformationRequest
 {
     public string EmployeeName { get; set; } = string.Empty;
-    public BiWeeklyHoursAndRate BiWeeklyHoursAndRate { get; set; } = new();
-    public PreTaxDeduction PreTaxDeduction { get; set; } = new();
-    public PostTaxDeduction PostTaxDeduction { get; set; } = new();
-    public TaxInformation TaxInformation { get; set; } = new();
+    public BiWeeklyHoursAndRateDto BiWeeklyHoursAndRate { get; set; } = new();
+    public PreTaxDeductionDto PreTaxDeduction { get; set; } = new();
+    public PostTaxDeductionDto PostTaxDeduction { get; set; } = new();
+    public TaxInformationDto TaxInformation { get; set; } = new();
 }
 
-public class BiWeeklyHoursAndRate
+public class BiWeeklyHoursAndRateDto
 {
     public decimal HourlyRateWeek1 { get; set; }
     public decimal TotalHoursWeek1 { get; set; }
@@ -22,7 +21,7 @@ public class BiWeeklyHoursAndRate
     public decimal TimeOffHoursWeek2 { get; set; }
 }
 
-public class PreTaxDeduction
+public class PreTaxDeductionDto
 {
     public decimal Medical { get; set; }
     public decimal Dental { get; set; }
@@ -32,7 +31,7 @@ public class PreTaxDeduction
     public decimal MiscellaneousAmount { get; set; }
 }
 
-public class PostTaxDeduction
+public class PostTaxDeductionDto
 {
     public decimal Roth401KPercentage { get; set; }
     public decimal EmployeeStockPlanAmount { get; set; }
@@ -41,7 +40,7 @@ public class PostTaxDeduction
     public decimal MiscellaneousAmount { get; set; }
 }
 
-public class TaxInformation
+public class TaxInformationDto
 {
     public W4Type W4Type { get; set; }
     public TaxFilingStatus TaxFilingStatus { get; set; }
