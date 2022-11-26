@@ -6,7 +6,7 @@ namespace FinancePlanner.Shared.Models.FinanceServices;
 public class PayInformationRequest
 {
     public string EmployeeName { get; set; } = string.Empty;
-    public List<BiWeeklyHoursAndRate> BiWeeklyHoursAndRate { get; set; } = new();
+    public BiWeeklyHoursAndRate BiWeeklyHoursAndRate { get; set; } = new();
     public PreTaxDeduction PreTaxDeduction { get; set; } = new();
     public PostTaxDeduction PostTaxDeduction { get; set; } = new();
     public TaxInformation TaxInformation { get; set; } = new();
