@@ -44,7 +44,7 @@ public class PostTaxDeduction
 
 public class TaxInformation
 {
-    public string W4Type { get; set; } = string.Empty;
+    public W4Type W4Type { get; set; }
     public TaxFilingStatus TaxFilingStatus { get; set; }
     public int PayPeriodNumber { get; set; }
     public string State { get; set; } = string.Empty;
