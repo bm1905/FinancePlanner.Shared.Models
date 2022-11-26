@@ -2,7 +2,7 @@
 
 namespace FinancePlanner.Shared.Models.FinanceServices;
 
-public class PayInformationRequest
+public class PayInformationDto
 {
     public string EmployeeName { get; set; } = string.Empty;
     public BiWeeklyHoursAndRateDto BiWeeklyHoursAndRate { get; set; } = new();
