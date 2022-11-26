@@ -14,7 +14,6 @@ public class PayInformationRequest
 
 public class BiWeeklyHoursAndRate
 {
-    public int BiWeeklyHoursAndRateId { get; set; }
     public decimal HourlyRateWeek1 { get; set; }
     public decimal TotalHoursWeek1 { get; set; }
     public decimal TimeOffHoursWeek1 { get; set; }
