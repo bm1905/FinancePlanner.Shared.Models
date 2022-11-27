@@ -16,4 +16,5 @@ public class TaxInformationDto
     public decimal DeductionsAmount { get; set; }
     public decimal OtherIncomeAmount { get; set; }
     public decimal ClaimDependentsAmount { get; set; }
+    public int AllowanceNumber { get; set; }
 }
