@@ -1,7 +1,10 @@
 ﻿using FinancePlanner.Shared.Models.Enums;
 
-namespace FinancePlanner.Shared.Models.FinanceServices;
+namespace FinancePlanner.Shared.Models.Common;
 
+/// <summary>
+/// Tax information; from W4
+/// </summary>
 public class TaxInformationDto
 {
     public W4Type W4Type { get; set; }

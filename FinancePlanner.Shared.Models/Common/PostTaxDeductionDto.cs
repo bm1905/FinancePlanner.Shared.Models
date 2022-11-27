@@ -1,5 +1,8 @@
-﻿namespace FinancePlanner.Shared.Models.FinanceServices;
+﻿namespace FinancePlanner.Shared.Models.Common;
 
+/// <summary>
+/// Post tax deductions
+/// </summary>
 public class PostTaxDeductionDto
 {
     public decimal Roth401KPercentage { get; set; }

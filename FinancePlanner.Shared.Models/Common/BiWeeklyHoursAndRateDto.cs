@@ -1,5 +1,8 @@
-﻿namespace FinancePlanner.Shared.Models.FinanceServices;
+﻿namespace FinancePlanner.Shared.Models.Common;
 
+/// <summary>
+/// Biweekly time information
+/// </summary>
 public class BiWeeklyHoursAndRateDto
 {
     public decimal HourlyRate { get; set; }

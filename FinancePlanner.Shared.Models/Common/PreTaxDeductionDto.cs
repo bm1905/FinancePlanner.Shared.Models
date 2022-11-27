@@ -1,5 +1,8 @@
-﻿namespace FinancePlanner.Shared.Models.FinanceServices;
+﻿namespace FinancePlanner.Shared.Models.Common;
 
+/// <summary>
+/// Pre tax deductions
+/// </summary>
 public class PreTaxDeductionDto
 {
     public decimal Medical { get; set; }
