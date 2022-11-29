@@ -5,6 +5,9 @@
 /// </summary>
 public class IncomeInformationDto
 {
+    public string UserId { get; set; } = string.Empty;
+    public string EmployeeName { get; set; } = string.Empty;
+    public int PayInformationId { get; set; }
     public decimal GrossPay { get; set; }
     public decimal NetPay { get; set; }
     public decimal TotalHours { get; set; }

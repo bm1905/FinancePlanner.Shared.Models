@@ -9,5 +9,4 @@ public class IncomeInformationResponse
     public string EmployeeName { get; set; } = string.Empty;
     public int PayInformationId { get; set; }
     public IncomeInformationDto IncomeInformation { get; set; } = new();
-
 }
